@@ -12,10 +12,10 @@ public class Main {
         string.data = "hello";
         System.out.println(string.data);
 
-        integer.next = new Node();
+        integer.next = new Node<Integer>();
         cur = integer.next;
         cur.data = 15;
-        cur.next = new Node();
+        cur.next = new Node<Integer>();
         cur = cur.next;
         cur.data = 20;
         System.out.println(cur.data);
